@@ -1,12 +1,14 @@
-# Mpesa Gateway
+# Mpesa Daraja Gateway
 
 This is the mpesa gateway repo.
 
-# Instructions on running the application
+# Setting up the application.
 
 Currently there exists no user interface for the application. Fork the application to a folder on your desired location.
 
-The main.py file requires inputs from the terminal. Thus use the following steps:
+## Instructions on running the application
+
+The main.py file requires inputs from the terminal. Thus follow these steps:
 
 1. Run __python main.py__ on your terminal/command prompt.
 
@@ -20,9 +22,10 @@ The main.py file requires inputs from the terminal. Thus use the following steps
 
 5. Cancel the request.
 
-
 # Specifications
 
-This code will work with any app provided amount and phone number are sent to the api url. It will also send responses to set urls in the env file.
+This code will work with any app provided *amount* and *phone number* are sent to the api url. 
+
+It will also send responses to set callback urls in the env file.
 
 You can connect this said url to a bulk messaging provider which will then maybe push custom messages to your clients.
