@@ -4,23 +4,21 @@ This is the mpesa gateway repo.
 
 # Instructions on running the application
 
-Currently there exists no user interface for the application.
+Currently there exists no user interface for the application. Fork the application to a folder on your desired location.
 
-However the main.py file requires inputs from the terminal. Thus run
+The main.py file requires inputs from the terminal. Thus use the following steps:
 
-__python main.py__ on your terminal.
+1. Run __python main.py__ on your terminal/command prompt.
 
-Upon running it will require the first input, this is the amount...i.e 70
+2. Upon running it will require the first input, this is the amount...i.e 70 
+*press enter*
 
-__press enter__
+3. The next input is the phone number to make request from i.e 254700000000
+*press enter*
 
-The next input is the phone number to make request from i.e 254700000000
+4. Check your mobile phone for the request. __DO NOT ENTER YOUR PIN__
 
-__press enter__
-
-Check your mobile phone for the request. __DO NOT ENTER YOUR PIN__
-
-Cancel the request.
+5. Cancel the request.
 
 
 # Specifications

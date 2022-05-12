@@ -22,6 +22,7 @@ class Authorize():
         base64_string = base64_bytes.decode("ascii")
 
         print(base64_string)
+        
         header = {
             'Authorization': f'Bearer {base64_string}'
         }
